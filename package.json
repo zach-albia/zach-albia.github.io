@@ -27,5 +27,6 @@
     "@svgr/webpack": "^4.2.0",
     "prettier": "^1.16.4",
     "rehype": "^8.0.0"
-  }
+  },
+  "license": "MIT"
 }
