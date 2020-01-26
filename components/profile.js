@@ -2,17 +2,17 @@ import { siteMeta } from '../blog.config'
 
 const Profile = () => (
   <div className="h-card profile">
-    <img className="u-photo" src="/static/_jolvera.png" alt={siteMeta.author} />
+    <img className="u-photo" src="/static/chibi.png" alt={siteMeta.author} />
 
     <div>
       <p>
         Hi, I'm{' '}
         <a className="u-url p-name" href={siteMeta.siteUrl} rel="me">
           {siteMeta.author}
-        </a>
+        </a>.
       </p>
       <p className="p-note">
-        I'm a frontend developer &amp; web standards enthusiastic.
+        Functional programming, Scala and TypeScript have been my focus lately.
       </p>
     </div>
     <style jsx>{`

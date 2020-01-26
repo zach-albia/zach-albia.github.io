@@ -15,7 +15,7 @@ const feed = {
   author: {
     name: siteMeta.author,
     url: siteMeta.siteUrl,
-    avatar: `${siteMeta.siteUrl}/static/_jolvera-avatar.jpg`,
+    avatar: `${siteMeta.siteUrl}/static/chibi.jpg`,
   },
   items: posts.map(post => ({
     id: `${siteMeta.siteUrl}${post.path}`,

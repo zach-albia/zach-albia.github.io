@@ -1,12 +1,12 @@
 module.exports = {
   siteMeta: {
-    title: 'Next.js Starter Blog',
-    author: 'Juan Olvera',
-    image: '/static/site-feature.png',
+    title: 'Zach\'s Programming Blog',
+    author: 'Zachary Albia',
+    image: '/static/chibi.jpg',
     description: 'Next.js starter blog',
-    siteUrl: 'https://nextjs-blog-starter.now.sh',
+    siteUrl: 'https://zach-albia.github.io',
     social: {
-      twitter: '_jolvera',
+      twitter: 'ZachAlbia',
     },
     postsPerPage: 5,
   },
