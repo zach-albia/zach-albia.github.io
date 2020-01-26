@@ -7,7 +7,7 @@ function Footer() {
 
       <p>
         Proudly built with <a href="https://nextjs.org">Next.js</a> -{' '}
-        <a href="/feed.json">RSS Feed</a>
+        © 2020 Zachary Albia. All rights reserved.
       </p>
       <style jsx>{`
         footer {
