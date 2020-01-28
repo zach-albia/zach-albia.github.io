@@ -1,19 +1,29 @@
-import { withRouter } from 'next/router'
-import BlogPost from '../../components/layouts/blog-post'
+---
+title: Eff in Context
+date: "2017-10-31T00:00:00.000Z"
+template: "post"
+draft: false
+slug: "eff-in-context"
+category: "Monads"
+tags:
+  - "Monad"
+  - "Functional Programming"
+  - "Eff"
+description: "Looking at Scala's version of the eff monad in context in comparison with other functional approaches"
+socialImage: "/media/42-line-bible.jpg"
+---
 
-export const meta = {
-  published: true,
-  publishedAt: '2017-10-31',
-  title: 'Learning Eff',
-  summary: 'Looking at eff in context with other functional approaches',
-  image: '/static/site-feature.png',
-}
-
-export default withRouter(({ children, router }) => (
-  <BlogPost path={router.pathname} meta={meta}>
-    {children}
-  </BlogPost>
-))
+Contents:
+- [Introduction](#introduction)
+- [Many ways to say hello](#many-ways-to-say-hello)
+  - [The simplest way](#the-simplest-way)
+  - [The testable way](#the-testable-way)
+  - [The Reader way](#the-reader-way)
+  - [The Reader-writer way](#the-reader-writer-way)
+  - [The Reader-writer-either way](#the-reader-writer-either-way)
+  - [The monad transformer way](#the-monad-transformer-way)
+  - [The Eff monad way](#the-eff-monad-way)
+- [Conclusion](#conclusion)
 
 # Introduction
 
@@ -86,7 +96,7 @@ class Prob01Spec extends FlatSpec with Matchers {
 
 Our test code *intercepts* what's passed to our function. This allows us to automatically confirm that, for whatever way we can print `"Hello World"`, `println` will receive *exactly* the string `"Hello World"` and *nothing else*.
 
-## The *Reader* way
+## The Reader way
 
 `printHelloWorld` is a function that takes a `println` function and runs it on `"Hello World"`, giving back `Unit`. Reader is just an effect in the form of a function taking one parameter which yields our value, the return value. Let's look at our testable code in terms of Reader:
 
@@ -231,7 +241,7 @@ We have a stack of two effects, Reader & Writer. Our `Writer` needs access to `a
 
 If we had to stack more effects, our pure program code would get more and more unwieldy and shift further and further to the right. To illustrate this, let's have a go at adding error handling to our stack.
 
-## The _Reader-Writer-Either_ Way
+## The *Reader-Writer-Either* Way
 
 Our `println` can throw an exception, as declared in `AppConfig`. After all, we could have our pure program tell a rover on Mars to print "Hello World" on Martian sand, again given the right `println`function. We could very easily lose our connection to the rover! As programmers, we have to be prepared for this scenario. Let's add error-handling to our stack.
 
@@ -366,7 +376,7 @@ Our test code is fairly trivial and similar to the last one:
 }
 ```
 
-## The _Eff Monad_ Way
+## The *Eff Monad* Way
 
 Let's let the code do the talking this time:
 
