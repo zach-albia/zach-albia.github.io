@@ -1,51 +1,37 @@
-# Blog starter example
+dbyll
+=====
 
-This is an example of a blog built with Next.js. [Read more about the motivation and how it is built](https://jolvera.dev/posts/rebuilding-my-blog-with-nextjs).
+Open source stylish, minimalistic theme for jekyll.  
+Demo: http://dbtek.github.io/dbyll/
 
-The blog is still barebones and need more improvements and styling, but this should be enough to get you started.
+## New
+- Dbyll for Ghost is now available. Get it [here](https://github.com/dbtek/dbyll-ghost) now.
+- :new: Check out [Paper](https://github.com/dbtek/paper), new Material Design Jekyll theme.
 
-[Demo deployed in Now](https://nextjs-blog-starter.now.sh/)
+### Features
+- Responsive layout.
+- Supports tags and categories.
+- Social profile and bio of author.
+- Bootstrap based.
+- Glyphicon and Font-Awesome Icons.
+- Pagination.
+- Syntax highlighting with pygments.
+- Disqus comments.
+- :new: Custom sidebar background image.
 
-## Deploy your own
 
-Deploy the example using [ZEIT Now](https://zeit.co/now):
+### Download
+* [Download dbyll](https://github.com/dbtek/dbyll/archive/master.zip)
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/zeit/next.js/tree/canary/examples/blog-starter)
+### Install
+- You need to have [ruby](https://www.ruby-lang.org/en/documentation/installation/) installed in your system.
+- Install bundler which helps in specifying and installing dependencies of any Ruby project. ```gem install bundler```
+- Go to the root of the repo and run this - ```bundle install```
+- Then - ```bundle exec jekyll serve```
 
-## How to use
+### Screenshots
+![dbyll-screenshot](assets/media/dbyll-ss.png)
 
-### Using `create-next-app`
+### License
+- [MIT](http://opensource.org/licenses/MIT)
 
-Execute [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npm init next-app --example blog-starter blog-starter-app
-# or
-yarn create next-app --example blog-starter blog-starter-app
-```
-
-### Download manually
-
-Download the example [or clone the repo](https://github.com/zeit/next.js):
-
-```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/blog-starter
-cd blog-starter
-```
-
-### Run locally
-
-Install and run the development server:
-
-```bash
-yarn install
-now dev
-```
-
-### Deploy
-
-Deploy it to the cloud with [now](https://zeit.co/now) ([download](https://zeit.co/download)):
-
-```bash
-now
-```
