@@ -1,5 +1,8 @@
-_config.yml
-_site/*
-.jekyll-cache/
-*Thumbs.db
-Gemfile.lock
+node_modules/
+.cache/
+public/
+npm-debug.log
+.eslintcache
+.gatsby-context.js
+.idea
+gatsby-starter-lumen.iml
