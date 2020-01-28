@@ -1,12 +1,12 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://zach-albia.github.io',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
+  title: 'Zach Albia',
+  subtitle: 'Scala, Functional programming',
+  copyright: '© 2020 Zachary Albia - All rights reserved.',
+  disqusShortname: 'zach-albia-github-io',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
@@ -25,25 +25,26 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Zachary Albia',
+    photo: '/photo.png',
+    bio: 'Functional programming, Scala and TypeScript have been my focus lately.',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'zach.albia@gmail.com',
+      facebook: '',
+      telegram: '',
+      twitter: 'ZachAlbia',
+      github: 'zach-albia',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'zach-albia',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
       codepen: '',
       youtube: '',
       soundcloud: '',
+      home: 'https://zach-albia.github.io',
     }
   }
 };
