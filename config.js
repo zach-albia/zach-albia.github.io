@@ -2,7 +2,7 @@
 
 module.exports = {
   url: 'https://zach-albia.github.io',
-  pathPrefix: '/blog',
+  pathPrefix: '/',
   title: 'Zach Albia',
   subtitle: 'Scala, Functional programming',
   copyright: '© 2020 Zachary Albia - All rights reserved.',
