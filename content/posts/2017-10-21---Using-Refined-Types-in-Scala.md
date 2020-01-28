@@ -1,19 +1,18 @@
-import { withRouter } from 'next/router'
-import BlogPost from '../../components/layouts/blog-post'
+---
+title: Using Refined Types in Scala
+date: "2017-10-21"
+template: "post"
+draft: false
+slug: "using-refined-types-in-scala"
+category: "Domain Modeling"
+tags:
+  - "Domain Modeling"
+  - "Refined Types"
+  - "Scala"
+description: "Refined types are pretty cool for domain modeling it turns out"
+socialImage: "/media/42-line-bible.jpg"
+---
 
-export const meta = {
-  published: true,
-  publishedAt: '2017-10-21',
-  title: 'Learning Refined Types in Scala',
-  summary: 'Refined types are pretty cool for domain modeling it turns out',
-  image: '/static/site-feature.png',
-}
-
-export default withRouter(({ children, router }) => (
-  <BlogPost path={router.pathname} meta={meta}>
-    {children}
-  </BlogPost>
-))
 
 # Refined
 
@@ -85,7 +84,7 @@ It turns out `refined` has support for `Equal` so let's go with that and `import
 
 Now that we've resolved the errors in our conditional, we are left with the following new error:
 
-```
+```scala
 [error] compile-time refinement only works with literals
 [error]     println(greet(readLine("What's your name? ")))
 [error]                           ^

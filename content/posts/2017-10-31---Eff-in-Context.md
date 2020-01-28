@@ -1,14 +1,15 @@
 ---
 title: Eff in Context
-date: "2017-10-31T00:00:00.000Z"
+date: "2017-10-31"
 template: "post"
 draft: false
 slug: "eff-in-context"
-category: "Monads"
+category: "Functional Programming"
 tags:
   - "Monad"
   - "Functional Programming"
   - "Eff"
+  - "Scala"
 description: "Looking at Scala's version of the eff monad in context in comparison with other functional approaches"
 socialImage: "/media/42-line-bible.jpg"
 ---
