@@ -8,7 +8,7 @@ module.exports = {
   copyright: '© 2020 Zachary Albia - All rights reserved.',
   disqusShortname: 'zach-albia-github-io',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-157354380-1',
   useKatex: false,
   menu: [
     {
