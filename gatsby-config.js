@@ -184,8 +184,8 @@ module.exports = {
         name: siteConfig.title,
         short_name: siteConfig.title,
         start_url: '/',
-        background_color: '#FFF',
-        theme_color: '#F7A046',
+        background_color: 'rgb(24, 26, 27)',
+        theme_color: 'rgb(247, 160, 70)',
         display: 'standalone',
         icon: 'static/photo.png'
       },
