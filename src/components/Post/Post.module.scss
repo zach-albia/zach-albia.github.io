@@ -37,6 +37,13 @@
 
   }
 
+  a {
+    svg {
+      path {
+        fill: $color-base;
+      }
+    }
+  }
 }
 
 @include breakpoint-md {
