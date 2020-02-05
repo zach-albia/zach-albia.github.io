@@ -34,7 +34,6 @@ const Author = ({ author, isIndex }: Props) => (
       </h2>
     )}
     <p className={styles['author__subtitle']}>{author.bio}</p>
-    <p style={{ color: 'rgb(182, 182, 182)' }}>(Site under construction)</p>
   </div>
 );
 
