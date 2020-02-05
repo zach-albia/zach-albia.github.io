@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://zach-albia.github.io',
   pathPrefix: '/',
   title: 'Zach Albia',
-  subtitle: 'Scala, Functional programming',
+  subtitle: 'Developer, musician. Currently into functional programming',
   copyright: '© 2020 Zachary Albia - All rights reserved.',
   disqusShortname: 'zach-albia-github-io',
   postsPerPage: 4,
@@ -14,6 +14,10 @@ module.exports = {
     {
       label: 'Articles',
       path: '/'
+    },
+    {
+      label: 'Functional Programming',
+      path: '/category/functional-programming'
     }
   ],
   author: {
