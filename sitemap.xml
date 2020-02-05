@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://zach-albia.github.io/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://zach-albia.github.io/posts/my-fp-story</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/posts/using-refined-types-in-scala</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/posts/eff-in-context</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/tag/advanced</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
