@@ -6,9 +6,10 @@ draft: false
 slug: "using-refined-types-in-scala"
 category: "Domain Modeling"
 tags:
-  - "Domain Modeling"
-  - "Refined Types"
-  - "Scala"
+  - "domain-modeling"
+  - "refined-types"
+  - "scala"
+  - "intermediate"
 description: "Refined types are pretty cool for domain modeling it turns out"
 socialImage: "/media/42-line-bible.jpg"
 ---

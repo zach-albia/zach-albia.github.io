@@ -6,10 +6,11 @@ draft: false
 slug: "eff-in-context"
 category: "Functional Programming"
 tags:
-  - "Monad"
-  - "Functional Programming"
-  - "Eff"
-  - "Scala"
+  - "monad"
+  - "functional-programming"
+  - "eff"
+  - "scala"
+  - "advanced"
 description: "Looking at Scala's version of the eff monad in context in comparison with other functional approaches"
 socialImage: "/media/42-line-bible.jpg"
 ---
