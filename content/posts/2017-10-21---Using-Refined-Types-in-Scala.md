@@ -4,18 +4,15 @@ date: "2017-10-21"
 template: "post"
 draft: false
 slug: "using-refined-types-in-scala"
-category: "Domain Modeling"
+category: "Computer Science"
 tags:
-  - "domain-modeling"
-  - "refined-types"
-  - "scala"
-  - "intermediate"
+  - "Domain Modeling"
+  - "Refined Types"
+  - "Scala"
+  - "Intermediate"
 description: "Refined types are pretty cool for domain modeling it turns out"
 socialImage: "/media/42-line-bible.jpg"
 ---
-
-
-# Refined
 
 [Refined](https://github.com/fthomas/refined) has some practical, useful ideas. There are obvious, clear benefits to domain modeling with refined types. Learning to use the library and getting used to it does have some overhead though, as with any new thing. We'll be getting into the nitty-gritty of that overhead as I learn the library.
 

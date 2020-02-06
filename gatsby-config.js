@@ -102,6 +102,16 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          'gatsby-remark-reading-time',
+          {
+            resolve: 'gatsby-remark-table-of-contents',
+            options: {
+              exclude: 'Table of Contents',
+              tight: false,
+              fromHeading: 1,
+              toHeading: 6
+            },
+          },
           'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-katex',

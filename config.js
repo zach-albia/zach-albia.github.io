@@ -16,8 +16,12 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'Functional Programming',
-      path: '/category/functional-programming'
+      label: 'Tags',
+      path: '/tags'
+    },
+    {
+      label: 'Categories',
+      path: '/categories'
     }
   ],
   author: {

@@ -15,12 +15,8 @@
 
       &-link {
         display: inline-block;
-        height: $button-height;
-        padding: 0 24px;
         line-height: $button-height;
-        border: 1px solid $color-gray-border;
         text-decoration: none;
-        border-radius: $button-border-radius;
         color: $color-base;
 
         &:hover,
@@ -32,6 +28,14 @@
 
     }
 
+  }
+
+  svg {
+    position: relative;
+    top: 0em;
+    height: 0.7em;
+    line-height: 0.7em;
+    margin-right: 0.2em;
   }
 
 }

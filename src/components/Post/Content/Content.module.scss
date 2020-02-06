@@ -18,6 +18,24 @@
     @include margin-bottom(0)
   }
 
+  &__tags {
+    max-width: $layout-post-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__readingTime {
+    font-style: italic;
+    max-width: $layout-post-width;
+    margin-left: auto;
+    margin-right: auto;
+    color: darken($color-base, 40%);
+
+    @media (max-width: $layout-breakpoint-lg) {
+      margin-top: 1rem;
+    }
+  }
+
   &__body {
     & figure {
       @include margin-bottom(1);

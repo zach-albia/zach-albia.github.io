@@ -4,32 +4,25 @@ date: "2017-10-31"
 template: "post"
 draft: false
 slug: "eff-in-context"
-category: "Functional Programming"
+category: "Computer Science"
 tags:
-  - "monad"
-  - "functional-programming"
-  - "eff"
-  - "scala"
-  - "advanced"
+  - "Monad"
+  - "Functional Programming"
+  - "Eff"
+  - "Scala"
+  - "Advanced"
 description: "Looking at Scala's version of the eff monad in context in comparison with other functional approaches"
 socialImage: "/media/42-line-bible.jpg"
 ---
 
-Contents:
-- [Introduction](#introduction)
-- [Many ways to say hello](#many-ways-to-say-hello)
-  - [The simplest way](#the-simplest-way)
-  - [The testable way](#the-testable-way)
-  - [The Reader way](#the-reader-way)
-  - [The Reader-writer way](#the-reader-writer-way)
-  - [The Reader-writer-either way](#the-reader-writer-either-way)
-  - [The monad transformer way](#the-monad-transformer-way)
-  - [The Eff monad way](#the-eff-monad-way)
-- [Conclusion](#conclusion)
-
-# Introduction
-
 Learning how to use [Eff in Scala](https://github.com/atnos-org/eff), let alone learning how it works on the inside, is quite the challenge for me and I believe for many people too. I feel that there's quite the chasm from running a few easy examples to putting together a full app using Eff.
+
+## Contents
+```toc
+# This code block gets replaced with the TOC
+exclude: Contents
+tight: false
+```
 
 However, Eff has a great amount of documentation for the initiated FP user in Scala. In fact, there's even a set of exercises in [*"Getting Work Done With Extensible Effects"*](https://github.com/benhutchison/GettingWorkDoneWithExtensibleEffects/) that guide you in a methodical way towards understanding how you might use Eff in a real, non-trivial app. There's even [a great presentation](https://vimeo.com/channels/flatmap2016/165927840) about a practical way to use Eff in bigger projects, though I've yet to see the usage of the overall framework described in it in a sample application. I hope there's one out there and I hope I just missed it. Or maybe it's not needed at all.
 

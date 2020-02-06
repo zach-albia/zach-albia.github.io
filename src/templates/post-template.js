@@ -30,12 +30,17 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
+      htmlAst
+      excerpt(pruneLength: 200)
       fields {
         slug
+        readingTime {
+          text
+        }
         tagSlugs
       }
       frontmatter {
-        date
+        date(formatString: "YYYY-MM-DD")
         description
         tags
         title

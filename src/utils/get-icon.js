@@ -53,6 +53,9 @@ const getIcon = (name: string) => {
     case 'home':
       icon = ICONS.HOME;
       break;
+    case 'tag':
+      icon = ICONS.TAG;
+      break;
     default:
       icon = {};
       break;

@@ -1,15 +1,23 @@
 // @flow strict
 import React from 'react';
 import styles from './Content.module.scss';
+import Tags from '../Tags';
 
 type Props = {
   body: string,
-  title: string
+  title: string,
+  readingTime: string,
+  tags: Array<Object>,
+  tagSlugs: Array<Object>
 };
 
-const Content = ({ body, title }: Props) => (
+const Content = ({
+  body, title, readingTime, tags, tagSlugs
+}: Props) => (
   <div className={styles['content']}>
     <h1 className={styles['content__title']}>{title}</h1>
+    <div className={styles['content__tags']}>{tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}</div>
+    <div className={styles['content__readingTime']}>{readingTime}</div>
     <div className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body }} />
   </div>
 );
