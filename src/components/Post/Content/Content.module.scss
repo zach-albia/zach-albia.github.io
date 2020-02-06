@@ -1,6 +1,12 @@
 @import '../../../assets/scss/variables';
 @import '../../../assets/scss/mixins';
 
+%content-layout {
+  max-width: $layout-post-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .content {
   max-width: $layout-post-single-width;
   padding: 0 15px;
@@ -19,17 +25,17 @@
   }
 
   &__tags {
-    max-width: $layout-post-width;
-    margin-left: auto;
-    margin-right: auto;
+    @extend %content-layout;
+
+    a {
+      color: $color-gray;
+    }
   }
 
-  &__readingTime {
+  &__date {
+    @extend %content-layout;
     font-style: italic;
-    max-width: $layout-post-width;
-    margin-left: auto;
-    margin-right: auto;
-    color: darken($color-base, 40%);
+    color: $color-gray;
 
     @media (max-width: $layout-breakpoint-lg) {
       margin-top: 1rem;

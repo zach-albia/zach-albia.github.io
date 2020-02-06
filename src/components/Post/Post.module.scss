@@ -40,7 +40,15 @@
   a {
     svg {
       path {
-        fill: $color-base;
+        fill: $color-gray;
+      }
+    }
+  }
+
+  a:hover {
+    svg {
+      path {
+        fill: $color-primary;
       }
     }
   }
