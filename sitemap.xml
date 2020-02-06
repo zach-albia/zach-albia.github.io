@@ -12,7 +12,6 @@
 <url> <loc>https://zach-albia.github.io/tag/monad</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/tag/refined-types</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/tag/scala</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://zach-albia.github.io/category/domain-modeling</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://zach-albia.github.io/category/functional-programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://zach-albia.github.io/category/computer-science</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
