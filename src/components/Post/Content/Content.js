@@ -18,6 +18,7 @@ const Content = ({
 }: Props) => (
   <div className={styles['content']}>
     <h1 className={styles['content__title']}>{title}</h1>
+    <div className={styles['content__date']}>Published {moment(date).format('D MMM YYYY')}, {readingTime}</div>
     <div className={styles['content__tags']}>{tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}</div>
     <div className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body }} />
   </div>
