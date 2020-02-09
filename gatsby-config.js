@@ -107,7 +107,7 @@ module.exports = {
             resolve: 'gatsby-remark-table-of-contents',
             options: {
               exclude: 'Table of Contents',
-              tight: false,
+              tight: true,
               fromHeading: 1,
               toHeading: 6
             },
@@ -130,8 +130,15 @@ module.exports = {
             }
           },
           {
+            resolve: 'gatsby-remark-embed-youtube',
+            options: {
+              width: 640,
+              height: 360
+            }
+          },
+          {
             resolve: 'gatsby-remark-responsive-iframe',
-            options: { wrapperStyle: 'margin-bottom: 1.0725rem' }
+            // options: { wrapperStyle: 'margin-bottom: 1.0725rem' }
           },
           'gatsby-remark-autolink-headers',
           'gatsby-remark-prismjs',

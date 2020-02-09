@@ -4,7 +4,7 @@ date: "2017-10-21"
 template: "post"
 draft: false
 slug: "using-refined-types-in-scala"
-category: "Computer Science"
+category: "Programming"
 tags:
   - "Domain Modeling"
   - "Refined Types"

@@ -22,8 +22,9 @@ const Sidebar = ({ isIndex }: Props) => {
         <Menu menu={menu} />
         <Contacts contacts={author.contacts} />
         <p>
-          This site is open source. You can view its source
-          <a href="https://github.com/zach-albia/zach-albia.github.io/tree/src"> here</a>.
+          This site is open-source.
+          <br/>
+          You can view its source <a href="https://github.com/zach-albia/zach-albia.github.io/tree/src"> here</a>.
         </p>
         <Copyright copyright={copyright} />
       </div>

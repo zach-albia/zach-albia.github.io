@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Zachary Albia',
     photo: '/photo.png',
-    bio: 'Functional programming, Scala and TypeScript have been my focus lately.',
+    bio: 'Functional programming, Scala and TypeScript have been my focus lately. Looking for an FP Scala job.',
     contacts: {
       email: 'zach.albia@gmail.com',
       facebook: '',
