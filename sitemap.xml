@@ -3,8 +3,10 @@
 <url> <loc>https://zach-albia.github.io/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/posts/using-refined-types-in-scala</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://zach-albia.github.io/posts/my-fp-journey</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/posts/eff-in-context</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/tag/advanced</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://zach-albia.github.io/tag/cats</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/tag/domain-modeling</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/tag/eff</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/tag/functional-programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -12,6 +14,7 @@
 <url> <loc>https://zach-albia.github.io/tag/monad</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/tag/refined-types</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/tag/scala</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://zach-albia.github.io/category/computer-science</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://zach-albia.github.io/category/personal</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://zach-albia.github.io/category/programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://zach-albia.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
