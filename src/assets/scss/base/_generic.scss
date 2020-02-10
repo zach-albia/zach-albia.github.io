@@ -33,28 +33,28 @@ h6 {
 h1 {
   font-size: $typographic-base-font-size * 2.5;
   @include line-height(2);
-  @include margin-top(4);
+  @include margin-top(2);
   @include margin-bottom(1);
 }
 
 h2 {
   font-size: $typographic-base-font-size * 1.6875;
   @include line-height(1.5);
-  @include margin-top(2);
+  @include margin-top(1.5);
   @include margin-bottom(.5);
 }
 
 h3 {
   font-size: $typographic-base-font-size * 1.375;
   @include line-height(1);
-  @include margin-top(2);
+  @include margin-top(1.5);
   @include margin-bottom(.5);
 }
 
 h4 {
   font-size: $typographic-base-font-size * 1.2;
   @include line-height(1);
-  @include margin-top(1.5);
+  @include margin-top(1);
   @include margin-bottom(.5);
 }
 
@@ -172,4 +172,17 @@ figcaption {
 
 .gatsby-resp-iframe-wrapper iframe {
   border: none;
+}
+
+figcaption.attrib {
+  color: $color-gray-border;
+
+  a {
+    color: darken($typographic-link-p-font-color, 50%);
+  }
+
+  a:hover {
+    color: darken($typographic-link-s-font-color, 50%);
+  }
+
 }
